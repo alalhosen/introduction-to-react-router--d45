@@ -8,6 +8,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element:<div>Hello from react router!!</div>
+  }
+])
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

@@ -12,16 +12,9 @@ import Home from './components/Home/Home.jsx';
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<Home></Home>
+    element:<Home></Home>,
+    children:[]
   },
-  {
-    path:'/about',
-    element:<div>I am in the about page.</div>
-  },
-{
-  path:'/contact',
-  element:<div>call me right now.</div>
-}
 ])
 
 createRoot(document.getElementById('root')).render(

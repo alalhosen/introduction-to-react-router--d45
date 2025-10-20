@@ -6,8 +6,9 @@ const Header = () => {
     <div>
       <h2>Header</h2>
       <nav>
-        <span><p>My Website</p></span>
+        <span>My Website</span>
         <Link to="/">Home</Link>
+        <Link to="/users">Users</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </nav>

@@ -10,6 +10,11 @@ const Users = () => {
     <div>
       <h2>Our Users:{users.length}</h2>
       <p>All users are here.</p>
+      <div>
+        {
+            users.map(user=>)
+        }
+      </div>
     </div>
   );
 };

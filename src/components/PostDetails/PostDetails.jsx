@@ -8,6 +8,7 @@ const PostDetails = () => {
       <h2>Post details: {id}</h2>
       <p>Title:{title}</p>
       <p><small>{body}</small></p>
+      
     </div>
   );
 };

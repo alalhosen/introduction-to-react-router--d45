@@ -15,6 +15,7 @@ const Post = ({ post }) => {
       <p>{userId}</p>
       <p>{body}</p>
       <Link to={`/post/${id}`}>Post Detail</Link>
+      <Link to={`/post/${id}`}><button>Show Details</button></Link>
     </div>
   );
 };

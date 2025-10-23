@@ -1,0 +1,22 @@
+import { Link } from "react-router-dom";
+
+const Post = ({ post }) => {
+  const { title, id, userId, body } = post;
+
+  const postStyle = {
+    border: "3px solid yellow",
+    padding: "5px",
+    borderRadius: "20px",
+  };
+  return (
+    <div style={postStyle}>
+      <h2>Title:{title}</h2>
+      <p>Post of id:{id}</p>
+      <p>{userId}</p>
+      <p>{body}</p>
+      <Link to={`/post/${id}`}>Post Detail</Link>
+    </div>
+  );
+};
+
+export default Post;

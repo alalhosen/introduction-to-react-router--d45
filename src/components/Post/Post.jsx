@@ -8,6 +8,11 @@ const Post = ({ post }) => {
     padding: "5px",
     borderRadius: "20px",
   };
+
+const handleShowDetail=()=>{
+    
+}
+
   return (
     <div style={postStyle}>
       <h2>Title:{title}</h2>
@@ -16,6 +21,7 @@ const Post = ({ post }) => {
       <p>{body}</p>
       <Link to={`/post/${id}`}>Post Detail</Link>
       <Link to={`/post/${id}`}><button>Show Details</button></Link>
+      <button onClick={handleShowDetail}>Click to see details</button>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const navigate=useNavigate();
   };
 
 const handleShowDetail=()=>{
-navigate(`/post/${id}`)
+navigate(`/post/${id}`);
 }
 
   return (

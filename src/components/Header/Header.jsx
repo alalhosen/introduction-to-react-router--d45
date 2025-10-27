@@ -7,13 +7,11 @@ const Header = () => {
       <h2>Header</h2>
       <nav>
         {/* <span>My Website</span>  */}
-        <Link to="/">Home</Link>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/users">Users</NavLink>
-        {/* <Link to="/users">Users</Link> */}
         <NavLink to="/posts">Posts</NavLink>
-        {/* <Link to="/posts">Posts</Link> */}
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </nav>
     </div>
   );
